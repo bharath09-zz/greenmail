@@ -11,12 +11,15 @@ import javax.mail.MessagingException;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.mockito.runners.MockitoJUnitRunner;
 import org.springframework.mail.SimpleMailMessage;
 import org.springframework.mail.javamail.JavaMailSenderImpl;
 
 import com.icegreen.greenmail.util.GreenMail;
 import com.icegreen.greenmail.util.ServerSetupTest;
 
+@RunWith(MockitoJUnitRunner.class)
 public class EmailerTest {
   private JavaMailSenderImpl emailSender;
 

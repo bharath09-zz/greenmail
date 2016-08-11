@@ -9,6 +9,7 @@ dependencies {
      compile group: 'junit', name: 'junit', version: '4.11'
 	compile group: 'org.springframework', name: 'spring-test', version: '4.1.7.RELEASE'
 	compile group: 'com.icegreen', name: 'greenmail', version: '1.5.1'
+	compile group: 'org.mockito', name: 'mockito-all', version: '1.8.4'
     testCompile 'junit:junit:4.11'
     
     compile group: 'org.slf4j', name: 'slf4j-api', version: '1.6.1'
